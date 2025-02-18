@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Chiffre Caché</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu du Chiffre Caché</h1>
+        <p>Devinez le nombre caché !</p>
+        <button id="startButton">Commencer</button>
+        <div id="gameArea" class="hidden">
+            <p id="message"></p>
+            <input type="number" id="guessInput" placeholder="Entrez votre nombre">
+            <button id="submitGuess">Soumettre</button>
+            <p id="attempts"></p>
+        </div>
+        <button id="replayButton" class="hidden">Rejouer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
